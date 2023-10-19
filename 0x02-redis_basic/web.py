@@ -45,4 +45,4 @@ def get_page(url: str) -> str:
     """
     r = requests.get(url)
 
-    \return r.text
+    return r.text
